@@ -1,0 +1,17 @@
+[package]
+name = "max_finder"
+version = "0.1.0"
+edition = "2018"
+
+[dependencies]
+ndarray = "0.15"
+sys-info = "0.9"
+csv = "1.1"
+statrs = "0.16"
+
+[dev-dependencies]
+pretty_assertions = "1.4.0"
+
+[lib]
+name = "max_finder"
+path = "src/lib.rs"
